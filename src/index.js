@@ -2,12 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import {IntlProvider, defineMessages, addLocaleData} from 'react-intl';
 import locale_en from 'react-intl/locale-data/en';
-import locale_de from 'react-intl/locale-data/pl';
+import locale_pl from 'react-intl/locale-data/pl';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-addLocaleData([...locale_en, ...locale_de]);
+addLocaleData([...locale_en, ...locale_pl]);
 
 const messages = defineMessages({
   en: {
